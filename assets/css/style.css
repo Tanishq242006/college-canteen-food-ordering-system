@@ -1,0 +1,53 @@
+/* General page background */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+/* Card styling */
+.card {
+    border-radius: 16px;
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image */
+.card-img-top {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+/* Tables (cart & admin) */
+.table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Status badges */
+.badge {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+}
+
+/* Center content nicely */
+.container {
+    max-width: 1100px;
+}
